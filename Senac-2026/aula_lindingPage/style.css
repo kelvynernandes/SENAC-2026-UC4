@@ -385,3 +385,36 @@ h2 {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: var(--espaco-md);
 }
+
+.card{
+    background-color: var(--cor-branca);
+    border: 1px solid var(--cor-borda);
+    border-radius: var(--raio-lg);
+    padding: var(--espaco-xl);
+    transition: transform 0.2s ease;
+}
+
+.card:hover{
+    transform: translate(-6px);
+    box-shadow: 0px 12px 40px #00000020;
+
+}
+
+.card-icone{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: var(--espaco-md);
+}
+
+.card-titulo{
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--cor-texto);
+    margin-bottom: var(--espaco-xs);
+}
+
+.Card-descricao{
+    font-size: 0.9375rem;
+    color: var(--cor-texto);
+    line-height: 1.7;
+}
