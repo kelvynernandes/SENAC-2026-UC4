@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card - Kelvyn Ernandes</title>
+
+    <style>
+        /* RESET básico */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        /* FUNDO GRADIENTE */
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+        }
+
+        /* CARD */
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            width: 300px;
+            text-align: center;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+
+        /* IMAGEM REDONDA */
+        .avatar {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-weight: bold;
+            font-size: 22px;
+            margin: 0 auto 15px;
+            box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+        }
+
+        /* TITULO */
+        h2 {
+            margin-bottom: 5px;
+        }
+
+        /* SUBTITULO */
+        .subtitulo {
+            color: #667eea;
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+
+        /* TEXTO */
+        .descricao {
+            font-size: 13px;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        /* HABILIDADES (FLEXBOX) */
+        .skills {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+        }
+
+        .skill {
+            background: #eee;
+            padding: 5px 10px;
+            border-radius: 20px;
+            font-size: 12px;
+        }
+
+        /* BOTÃO */
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            border-radius: 20px;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            text-decoration: none;
+            font-size: 14px;
+            box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            opacity: 0.8;
+        }
+
+     </style>
+</head>
+
+<body>
+
+    <div class="card">
+
+        <div class="avatar">KE</div>
+
+        <h2>Kelvyn Ernandes</h2>
+        <p class="subtitulo">Desenvolvedor Front-End</p>
+
+        <p class="descricao">
+            Apaixonado por criar interfaces modernas e funcionais com HTML, CSS e JavaScript.
+        </p>
+
+        <div class="skills">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">Flexbox</div>
+        </div>
+
+        <a href="#" class="btn">Entre em Contato</a>
+
+    </div>
+
+</body>
+</html>
