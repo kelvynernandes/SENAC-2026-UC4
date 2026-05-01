@@ -457,7 +457,14 @@ h2 {
     font-weight: 700;
     border-radius: 50%;
     margin-bottom: var(--espaco-md);
+    transition: ease 0.3s;
 
+
+}
+
+.avatar-hover{
+    transform: scale(1.2);
+    transition: ease 0.2s;
 
 }
 .membro-cargo{
@@ -473,6 +480,7 @@ h2 {
 
 
 }
+
 
 
 
