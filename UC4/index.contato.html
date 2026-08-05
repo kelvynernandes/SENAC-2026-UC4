@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Home Mova-se</title>
+    <title>Contato</title>
     <meta name="descrition"
         content="O Mova-se é um site educacional, com o propósito de fazer reservas e pacotes de viagens.">
     <!-- fonts  -->
@@ -38,63 +38,57 @@
         </div>
     </header>
     <main class="conteudo">
-        <article class="cont-home">
-            <div class="detaque" id="destaque">
-                <div class="cont-destaque">
-                    <img src="img/montanha.jpg" alt="montanha">
-                    <div class="text-destaque">
-                        <h2>Montanha</h2>
-                        <p>Explore trilhas e cachoeiras.</p>
-                    </div>
+        <div class="conteudo-info" id="conteudo-contato">
+            <article class="cont-contato">
+                <div class="formulario">
+                    <h2 class="titulo">Contato</h2>
+                    <p>Preencha os campos abaixo para entrar em contato.</p>
+                    <form action="" id="form-contato" method="post">
+                        <p>
+                            <label for="nome">Nome:</label>
+                            <input tabindex="5" required type="text" id="nome" name="nome">
+                        </p>
+                        <p>
+                            <label for="email">E-mail:</label>
+                            <input tabindex="6" required type="email" id="email" name="email">
+                        </p>
+                        <p>
+                            <label for="celular">Celular:</label>
+                            <input tabindex="7" required type="tel" id="celular" name="celular">
+                        </p>
+                        <p>
+                            <label for="assunto">Assunto:</label>
+                            <input tabindex="8" required type="text" id="assunto" name="assunto">
+                        </p>
+                        <p>
+                            <label for="mensagem">Mensagem:</label>
+                            <textarea tabindex="9" required cols="30" rows="6" id="mensagem" name="mensagem"></textarea>
+                        </p>
+                        <p>
+                            <button tabindex="10" id="limpar" type="reset" name="limpar">Limpar Campo</button>
+                            <button tabindex="11" id="enviar" type="submit" name="enviar">Enviar</button>
+                        </p>
+                    </form>
                 </div>
-                <div class="cont-destaque">
-                    <img src="img/arvores.jpg" alt="Arvores">
-                    <div class="text-destaque">
-                        <h2>Terrestre</h2>
-                        <p>Explore trilhas.</p>
-                    </div>
-                </div>
-                <div class="cont-destaque">
-                    <img src="img/paisagem.jpg" alt="Montabhas e rios">
-                    <div class="text-destaque">
-                        <h2>Aquático</h2>
-                        <p>Explore cachoeiras.</p>
-                    </div>
-                </div>
-            </div>
-        </article>
-        <aside id="frase">
-            <p>"Silêncio, a mãe natureza está esperando sua conexão"<br>Amara Antara.</p>
-        </aside>
-        <article class="card">
-            <h2 class="titulo">Pacotes</h2>
-            <p>Veja os pacotes disponíveis:</p>
-            <div class="card-conteudo">
-                <figure>
-                    <a href="#"><img src="img/capa-terrestre.jpg" alt="Terrestre"></a>
-                    <figcaption>terrestre</figcaption>
-                </figure>
-                <figure>
-                    <a href="#"><img src="img/escalada.jpg" alt="Escalada"></a>
-                    <figcaption>escalada</figcaption>
-                </figure>
-                <figure>
-                    <a href="#"><img src="img/rafting.jpg" alt="rafting"></a>
-                    <figcaption>rafting</figcaption>
-                </figure>
-                <figure>
-                    <a href="#"><img src="img/asa-delta.jpg" alt="aéreo"></a>
-                    <figcaption>aéreo</figcaption>
-                </figure>
-            </div>
-        </article>
-        <article>
-            <div id="video">
-                <h2 class="titulo" id="titulo-video">Vídeo Radical</h2>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/zEPZL336TwY?si=XtFigIs9F9GxH9S8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </article>
+            <article class="cont-contato" id="localizacao-end">
+                <div class="localizacao">
+                    <h2 class="titulo">Localização</h2>
+                    <p>Rua tito, 54 - Vila Romana <br> CEP: 05051-000 - São Paulo <br> Telefone: (11) 2888-5500
+                        <br>e-mail: lapatito@sp.senac.br</p>
 
-            </div>
-        </article>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.122920030118!2d-46.69433512378939!3d-23.528080960372165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef8775663b04f%3A0x923835e9005f8309!2sSenac%20Lapa%20Tito!5e0!3m2!1spt-BR!2sbr!4v1785884297541!5m2!1spt-BR!2sbr"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="strict-origin-when-cross-origin">
+                    </iframe>
+                </div>
+            </article>
+        </div>
+
+
+
+
     </main>
     <footer class="rodape">
         <div class="rodape-conteudo">
