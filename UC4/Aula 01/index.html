@@ -17,6 +17,10 @@
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
 
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- slick -->
+     <link rel="stylesheet" href="slick/slick.css">
+      <link rel="stylesheet" href="slick/slick-theme.css">
 </head>
 
 <body>
@@ -26,10 +30,10 @@
             <h1>
                 <a href="index.html"><img src="img/logo.png" alt="Logo do site"></a>
             </h1>
-            <span class="material-symbols-outlined">
+            <span class="material-symbols-outlined" id="iconMenu" onclick="clickMenu()"> 
                 menu
             </span>
-            <nav>
+            <nav id="itens">
                 <a href="index.html" tabindex="1">Home</a>
                 <a href="pacotes.html" tabindex="2">Pacotes</a>
                 <a href="acessorios.html" tabindex="3">Acessórios</a>
@@ -39,7 +43,7 @@
     </header>
     <main class="conteudo">
         <article class="cont-home">
-            <div class="detaque" id="destaque">
+            <div class="destaque" id="destaque">
                 <div class="cont-destaque">
                     <img src="img/montanha.jpg" alt="montanha">
                     <div class="text-destaque">
@@ -91,7 +95,7 @@
         <article>
             <div id="video">
                 <h2 class="titulo" id="titulo-video">Vídeo Radical</h2>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/zEPZL336TwY?si=XtFigIs9F9GxH9S8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="760" height="515" src="https://www.youtube.com/embed/zEPZL336TwY?si=XtFigIs9F9GxH9S8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
             </div>
         </article>
@@ -158,9 +162,9 @@
 
 
 
-
-
-
+<script src="js/jquery-3.7.0.min.js"></script>
+<script src="slick/slick.min.js"></script>
+<script src="js/interacoes.js"></script>
 </body>
 
 </html>
